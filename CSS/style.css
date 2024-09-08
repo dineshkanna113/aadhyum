@@ -12,10 +12,10 @@
 
 
 :root{
-    --bg-color: #111212;
+    --bg-color: #062f15;
     --second-bg-color:#2e4133;
     --text-color:#ededed;
-    --main-color:#3fad73;
+    --main-color:#207c4b98;
 
 }
 
@@ -242,7 +242,7 @@ section{
 
 .slider {
     position: relative;
-    background-color: #1fface;
+    background-color: #095b40;
     pointer-events: none;
     width: 100%
   }
@@ -318,7 +318,7 @@ section{
   .slider__box-cover-img {
     position: absolute;
     bottom: 0;
-    left: 50%
+    left: 100%
   }
   
   .slider__box-cover-img--s1 {
@@ -361,7 +361,7 @@ section{
   
   .slider__box-review-box {
     opacity: 0;
-    transition: all .2s ease-in-out;
+    transition: all .3s ease-in-out;
     position: relative;
     z-index: 10
   }
@@ -1097,7 +1097,7 @@ section:nth-child(odd) .animate.scroll,
 }
 
 .slides {
-    width: 500%;
+    width: 750%;
     height: 100%;
     display: flex;
     position: relative;
